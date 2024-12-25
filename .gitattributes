@@ -1,0 +1,7 @@
+# Thiết lập xuống dòng cố định cho tất cả các file
+* text=auto
+
+# Dùng LF cho các file cụ thể
+*.js eol=lf
+*.json eol=lf
+*.env.example eol=lf

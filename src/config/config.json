@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "142111",
+    "database": "F_and_B_App",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "loging": false,
+    "query": {
+      "raw": true
+    },
+    "timezone": "+07:00",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "142111",
+    "database": "F_and_B_App",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "loging": false,
+    "query": {
+      "raw": true
+    },
+    "timezone": "+07:00"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
